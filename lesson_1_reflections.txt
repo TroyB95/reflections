@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Showing the diff between two versions was alot of help finding the bug due to it pinpointing excatly where the code differs
+and what have been changed or taken away. It was clear to see instantly that the space was mis-typed and proved to be the 
+bug in the end.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would be a great help to see how far the program has progressed from the start. But the main reason would be due to
+being able to go back to an older version if the new version you save has some bugs in it and excatly pin point where 
+it was. I think its also possible that you prefered a part of the program from a much older version and would like to
+introduce that back into the new program instead, it would be very handy to be able to go back to a previous version
+and look at it again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+
+When chosing to create a commit yourself you could run into many problems, firstly you could misjudge it and commit a change
+so large that its very very difficult to compare the changes which ultimately results in a large waste of time. But on the 
+hand you could commit to many small changes and have a clogged up version history! But then you never know how quick you will 
+able to code so the automatically save could do face the same problem.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+
+I think the reason why is because VCSs like Git was created with coding in mind, this means that multiple files will quite often be
+changed at the same time. For example CSS will directly effect the styling of HTML so without the CSS file saved aswell the HTML
+will not display correctly! Google Docs etc is just a place to store general files and photos.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log is used to see what has been commited, the time and id of it. You can then use git diff to compare two different ID's to
+see what has changed between the two. 
