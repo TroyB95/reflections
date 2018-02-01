@@ -1,1 +1,36 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+You would want to use a remote repository when you are working on a large project which may involve many differnt people working on
+differnt parts of the program. This means that everybody will stay up to date and you will be able to see the latest changes which
+gets applied.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You will want to pull changes to have full control and to make sure you are pulling the right branch, if you let git do it automatically it
+could pull something which youre not working on which could confuse you or cause errors.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+fork is a way to copy a repository from one github account to another. You will generally fork off the creator of that repository. Clone is
+a way to download the repository from your gibhub account to a remote level on your computer so you can start making changes to it. A branch
+is a new line of commits, you may make a new branch if youre going to create an experiement feature or create a whole branch dedicated to 
+including another language.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It would be very beneficial to have the last known state of the respository stored locally because if you make some changes which completly break
+everything, it is very easy to checkout the last known state in which its working and compare to see where you may have gone wrong.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating without github would be very hard. It would make sharing files tricky because you would have to spend alot more time explaining changes
+which have been made and highlighting them. It would also be much harder to collaborate with multiple people on a single file due to not knowing 
+what changes the other people has made and there would be no easy way to merge files together. The process for exchanging files could be easier
+due to only having to send a file over, instead of having to learn command line and the github features.
+
+
