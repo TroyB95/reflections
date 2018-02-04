@@ -34,3 +34,8 @@ what changes the other people has made and there would be no easy way to merge f
 due to only having to send a file over, instead of having to learn command line and the github features.
 
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes on seperate branch instead of master if youre experimenting or adding a new feature. You would want to do this because
+there will be many bugs and issues and you wouldnt want to ruin the master branch which everybody else might be using if the feature you are implementing
+dosnt work. Using differnt branches allows you to be as bold as you want when writing code because you know its seperate.
